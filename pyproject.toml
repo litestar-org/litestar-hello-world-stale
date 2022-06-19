@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "starlite-hello-world"
+version = "0.1.0"
+description = ""
+authors = ["Peter Schutt <peter.github@proton.me>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+starlite = "*"
+uvicorn = "*"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
