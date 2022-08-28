@@ -1,4 +1,18 @@
+<!-- markdownlint-disable -->
 <img alt="Starlite logo" src="./static/starlite-banner.svg" width="100%" height="auto">
+<!-- markdownlint-restore -->
+
+<div align="center">
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=starlite-api_starlite-hello-world&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=starlite-api_starlite-hello-world)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=starlite-api_starlite-hello-world&metric=coverage)](https://sonarcloud.io/summary/new_code?id=starlite-api_starlite-hello-world)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=starlite-api_starlite-hello-world&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=starlite-api_starlite-hello-world)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=starlite-api_starlite-hello-world&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=starlite-api_starlite-hello-world)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=starlite-api_starlite-hello-world&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=starlite-api_starlite-hello-world)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=starlite-api_starlite-hello-world&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=starlite-api_starlite-hello-world)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=starlite-api_starlite-hello-world&metric=bugs)](https://sonarcloud.io/summary/new_code?id=starlite-api_starlite-hello-world)
+
+</div>
 
 # starlite-hello-world
 

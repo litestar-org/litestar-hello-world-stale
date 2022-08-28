@@ -1,6 +1,4 @@
-"""
-Minimal Starlite application.
-"""
+"""Minimal Starlite application."""
 from typing import Any
 
 from starlite import Starlite, get
@@ -8,7 +6,7 @@ from starlite import Starlite, get
 
 @get("/")
 def hello_world() -> dict[str, Any]:
-    """Hi"""
+    """Hi."""
     return {"hello": "world"}
 
 
