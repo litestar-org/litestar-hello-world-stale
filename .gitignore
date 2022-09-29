@@ -1,5 +1,6 @@
 .coverage
 .idea/
+.python-version
 .venv
 .vscode/
 __pycache__/

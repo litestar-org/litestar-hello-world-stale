@@ -13,7 +13,7 @@ uvicorn = "*"
 pre-commit = "*"
 pytest = "*"
 pytest-cov = "*"
-httpx = "*"
+starlite = { version = "*", extras = ["testing"] }
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
