@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "starlite-hello-world"
 version = "0.1.0"
-description = ""
-authors = ["Peter Schutt <peter.github@proton.me>"]
+description = "A minimal template for Starlite based projects"
+authors = []
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -10,13 +10,10 @@ starlite = "*"
 uvicorn = "*"
 
 [tool.poetry.dev-dependencies]
-black = "*"
-mypy = "*"
 pre-commit = "*"
-pylint = "*"
 pytest = "*"
 pytest-cov = "*"
-starlite = { extras = ["testing"], version = "*" }
+httpx = "*"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
