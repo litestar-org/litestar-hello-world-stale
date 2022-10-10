@@ -491,7 +491,7 @@ full = ["httpx (>=0.22.0)", "itsdangerous", "jinja2", "python-multipart", "pyyam
 
 [[package]]
 name = "starlite"
-version = "1.25.0"
+version = "1.26.0"
 description = "Light-weight and flexible ASGI API Framework"
 category = "main"
 optional = false
@@ -506,7 +506,7 @@ pydantic-factories = "*"
 pydantic-openapi-schema = "*"
 pyyaml = "*"
 starlette = ">=0.21"
-starlite-multipart = "*"
+starlite-multipart = ">=1.2.0"
 typing-extensions = "*"
 
 [package.extras]
@@ -519,7 +519,7 @@ testing = ["cryptography", "httpx (>=0.22)"]
 
 [[package]]
 name = "starlite-multipart"
-version = "1.1.0"
+version = "1.2.0"
 description = "Toolkit for working with multipart/formdata messages."
 category = "main"
 optional = false
@@ -1009,12 +1009,12 @@ starlette = [
     {file = "starlette-0.21.0.tar.gz", hash = "sha256:b1b52305ee8f7cfc48cde383496f7c11ab897cd7112b33d998b1317dc8ef9027"},
 ]
 starlite = [
-    {file = "starlite-1.25.0-py3-none-any.whl", hash = "sha256:2f865a3fbca75095bebdd1013855fda30697f291b64b964b39480a68a8d9ffa1"},
-    {file = "starlite-1.25.0.tar.gz", hash = "sha256:2450d088ef5dcf51d0f2b8ac4c71b21f80d3d74880a649da557ed4b6c4e20db6"},
+    {file = "starlite-1.26.0-py3-none-any.whl", hash = "sha256:8a9831154bc51063846f290bcab74e8192d3f26442c26a4f1f02fe4135c81937"},
+    {file = "starlite-1.26.0.tar.gz", hash = "sha256:3c3c5e99bb58d38386711c232746e448b9a856b4ee8fcc8b083928ad37c84200"},
 ]
 starlite-multipart = [
-    {file = "starlite-multipart-1.1.0.tar.gz", hash = "sha256:bd5b25a614fadc237fe4da60f0c43c5e7d045a523d4e3685237047e1e228da87"},
-    {file = "starlite_multipart-1.1.0-py3-none-any.whl", hash = "sha256:c7b45545e70504b115f46a5046006a5bd41b1399cf829b9dede04af7a84b3981"},
+    {file = "starlite-multipart-1.2.0.tar.gz", hash = "sha256:9ba2108cfd47de07240dc90e55397080ec9ca0c6992ec1097a02dd32ba4ca593"},
+    {file = "starlite_multipart-1.2.0-py3-none-any.whl", hash = "sha256:ceb5667d6c58bcbc305d5922ead791f0b50f0b9f658747144577a3dccffc5335"},
 ]
 toml = [
     {file = "toml-0.10.2-py2.py3-none-any.whl", hash = "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b"},
