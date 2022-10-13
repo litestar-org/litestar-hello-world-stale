@@ -27,7 +27,7 @@ python-versions = ">=3.5"
 dev = ["cloudpickle", "coverage[toml] (>=5.0.2)", "furo", "hypothesis", "mypy (>=0.900,!=0.940)", "pre-commit", "pympler", "pytest (>=4.3.0)", "pytest-mypy-plugins", "sphinx", "sphinx-notfound-page", "zope.interface"]
 docs = ["furo", "sphinx", "sphinx-notfound-page", "zope.interface"]
 tests = ["cloudpickle", "coverage[toml] (>=5.0.2)", "hypothesis", "mypy (>=0.900,!=0.940)", "pympler", "pytest (>=4.3.0)", "pytest-mypy-plugins", "zope.interface"]
-tests_no_zope = ["cloudpickle", "coverage[toml] (>=5.0.2)", "hypothesis", "mypy (>=0.900,!=0.940)", "pympler", "pytest (>=4.3.0)", "pytest-mypy-plugins"]
+tests-no-zope = ["cloudpickle", "coverage[toml] (>=5.0.2)", "hypothesis", "mypy (>=0.900,!=0.940)", "pympler", "pytest (>=4.3.0)", "pytest-mypy-plugins"]
 
 [[package]]
 name = "certifi"
@@ -491,7 +491,7 @@ full = ["httpx (>=0.22.0)", "itsdangerous", "jinja2", "python-multipart", "pyyam
 
 [[package]]
 name = "starlite"
-version = "1.26.1"
+version = "1.27.0"
 description = "Light-weight and flexible ASGI API Framework"
 category = "main"
 optional = false
@@ -513,7 +513,9 @@ typing-extensions = "*"
 brotli = ["brotli"]
 cryptography = ["cryptography"]
 full = ["brotli", "cryptography", "httpx (>=0.22)", "picologging", "structlog"]
+memcached = ["aiomcache"]
 picologging = ["picologging"]
+redis = ["redis[hiredis]"]
 structlog = ["structlog"]
 testing = ["cryptography", "httpx (>=0.22)"]
 
@@ -1009,8 +1011,8 @@ starlette = [
     {file = "starlette-0.21.0.tar.gz", hash = "sha256:b1b52305ee8f7cfc48cde383496f7c11ab897cd7112b33d998b1317dc8ef9027"},
 ]
 starlite = [
-    {file = "starlite-1.26.1-py3-none-any.whl", hash = "sha256:59e5c3d3049841217e43c59c73375508dd1c79be20d2064993a4c61931a4deba"},
-    {file = "starlite-1.26.1.tar.gz", hash = "sha256:eea8b9916073a2020cc4d2e32adc38ec4b62f319cd3b8aecac9ac08ebd755e90"},
+    {file = "starlite-1.27.0-py3-none-any.whl", hash = "sha256:f455a9eb53b38e8d079f170f7fa7212497ade0ae05d545a7041738f69504a581"},
+    {file = "starlite-1.27.0.tar.gz", hash = "sha256:e13f4f3559b59f0b6aa615ef57d53369788ed4960fd38b229bb9803acbc67a96"},
 ]
 starlite-multipart = [
     {file = "starlite-multipart-1.2.0.tar.gz", hash = "sha256:9ba2108cfd47de07240dc90e55397080ec9ca0c6992ec1097a02dd32ba4ca593"},
