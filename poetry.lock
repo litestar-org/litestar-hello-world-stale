@@ -512,7 +512,7 @@ python-versions = ">=3.7"
 
 [[package]]
 name = "starlite"
-version = "1.47.0"
+version = "1.48.0"
 description = "Performant, light and flexible ASGI API Framework"
 category = "dev"
 optional = false
@@ -1039,8 +1039,8 @@ sniffio = [
     {file = "sniffio-1.3.0.tar.gz", hash = "sha256:e60305c5e5d314f5389259b7f22aaa33d8f7dee49763119234af3755c55b9101"},
 ]
 starlite = [
-    {file = "starlite-1.47.0-py3-none-any.whl", hash = "sha256:6ca09a22a25372976d3180f8891603773e409ec880fc02e1a33d3d4f3c42a88c"},
-    {file = "starlite-1.47.0.tar.gz", hash = "sha256:49c2f84a29672ed49520430f0861fc4c25546490912334cb24d7a0931c505a4d"},
+    {file = "starlite-1.48.0-py3-none-any.whl", hash = "sha256:8848fb9e941de852e74fb2e84afa9487621848b1288ee2e46ca51c5a13c313b5"},
+    {file = "starlite-1.48.0.tar.gz", hash = "sha256:2a860324b2e1ddf736ea4d7f8eb6b8edca39422f29a50f7771aaf0048c45cd65"},
 ]
 tomli = [
     {file = "tomli-2.0.1-py3-none-any.whl", hash = "sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc"},
