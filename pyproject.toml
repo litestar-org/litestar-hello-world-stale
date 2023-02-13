@@ -13,7 +13,7 @@ uvicorn = "*"
 pre-commit = "*"
 pytest = "*"
 pytest-cov = "*"
-starlite = { version = "1.51.0", extras = ["testing"] }
+starlite = { version = "1.51.1", extras = ["testing"] }
 # starlite = { path  = "../starlite/", develop = true, extras = ["testing"] }
 
 [build-system]
