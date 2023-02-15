@@ -15,7 +15,7 @@
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=starlite-api_starlite-hello-world&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=starlite-api_starlite-hello-world)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=starlite-api_starlite-hello-world&metric=bugs)](https://sonarcloud.io/summary/new_code?id=starlite-api_starlite-hello-world)
 
-[![Discord](https://img.shields.io/discord/919193495116337154?color=202235&label=%20Discord&logo=discord)](https://discord.gg/X3FJqy8d2j)                            [![Matrix](https://img.shields.io/badge/%5Bm%5D%20Matrix-bridged-blue?color=202235)](https://matrix.to/#/#starlitespace:matrix.org)                                  [![Reddit](https://img.shields.io/reddit/subreddit-subscribers/starlite?label=r%2FStarlite&logo=reddit)](https://reddit.com/r/starlite)
+[![Discord](https://img.shields.io/discord/919193495116337154?color=202235&label=%20Discord&logo=discord)](https://discord.gg/X3FJqy8d2j) [![Matrix](https://img.shields.io/badge/%5Bm%5D%20Matrix-bridged-blue?color=202235)](https://matrix.to/#/#starlitespace:matrix.org) [![Reddit](https://img.shields.io/reddit/subreddit-subscribers/starlite?label=r%2FStarlite&logo=reddit)](https://reddit.com/r/starlite)
 
 </div>
 
