@@ -1,7 +1,7 @@
 <!-- markdownlint-disable -->
 <p align="center">
-  <img src="https://github.com/starlite-api/branding/blob/9ab099a2089219c07727baaa29f67e9474ff93c8/assets/Starlite%20Branding%20-%20SVG%20-%20Transparent/Logo%20-%20Banner%20-%20Inline%20-%20Light.svg#gh-light-mode-only" alt="Starlite Logo - Light" width="100%" height="auto" />
-  <img src="https://github.com/starlite-api/branding/blob/9ab099a2089219c07727baaa29f67e9474ff93c8/assets/Starlite%20Branding%20-%20SVG%20-%20Transparent/Logo%20-%20Banner%20-%20Inline%20-%20Dark.svg#gh-dark-mode-only" alt="Starlite Logo - Dark" width="100%" height="auto" />
+  <img src="https://github.com/litestar-org/branding/blob/main/assets/Branding%20-%20SVG%20-%20Transparent/Logo%20-%20Banner%20-%20Inline%20-%20Light.svg#gh-light-mode-only" alt="Starlite Logo - Light" width="100%" height="auto" />
+  <img src="https://github.com/litestar-org/branding/blob/5c46ce93092faa36d0ba572f931b5d579ae75ad3/assets/Branding%20-%20SVG%20-%20Transparent/Logo%20-%20Banner%20-%20Inline%20-%20Dark.svg#gh-dark-mode-only" alt="Starlite Logo - Dark" width="100%" height="auto" />
 </p>
 <!-- markdownlint-restore -->
 
@@ -19,9 +19,9 @@
 
 </div>
 
-# starlite-hello-world
+# ltiestar-hello-world
 
-Minimum Starlite API Implementation.
+Minimum Litestar Implementation.
 
 `$ poetry install`
 
@@ -29,20 +29,20 @@ Minimum Starlite API Implementation.
 
 `$ curl localhost:8000/ -w "\n"`
 
-## To use for Starlite development
+## To use for Litestar development
 
-If you want to use this app to test a local version of `Starlite`, the starlite dependency in
+If you want to use this app to test a local version of `Litestar`, the litestar dependency in
 `pyroject.toml` to:
 
 ```toml
-starlite = {path = "../starlite", develop = true}
+starlite = {path = "../litestar", develop = true}
 ```
 
-This assumes that `Starlite` and this app exist in the same directory.
+This assumes that `Litestar` and this app exist in the same directory.
 
 Run uvicorn with:
 
-`$ poetry run uvicorn main:app --reload --reload-dir "../starlite/starlite"`
+`$ poetry run uvicorn main:app --reload --reload-dir "../litestar/litestar"`
 
 ## Code Quality
 
