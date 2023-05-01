@@ -19,7 +19,7 @@
 
 </div>
 
-# ltiestar-hello-world
+# litestar-hello-world
 
 Minimum Litestar Implementation.
 
@@ -32,7 +32,7 @@ Minimum Litestar Implementation.
 ## To use for Litestar development
 
 If you want to use this app to test a local version of `Litestar`, the litestar dependency in
-`pyroject.toml` to:
+`pyproject.toml` to:
 
 ```toml
 starlite = {path = "../litestar", develop = true}
