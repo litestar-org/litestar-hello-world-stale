@@ -899,14 +899,14 @@ files = [
 
 [[package]]
 name = "starlite"
-version = "1.51.9"
+version = "1.51.11"
 description = "Performant, light and flexible ASGI API Framework"
 category = "main"
 optional = false
 python-versions = ">=3.8,<4.0"
 files = [
-    {file = "starlite-1.51.9-py3-none-any.whl", hash = "sha256:cdf14c8a69e9d0557f3da3cfd7990fe7b7a1f27f5a10e06a48ed88f66f4ca0d8"},
-    {file = "starlite-1.51.9.tar.gz", hash = "sha256:349b80046b961f70f75278b7a35a2fd0904dda78241b6250292b04ae3eb1341a"},
+    {file = "starlite-1.51.11-py3-none-any.whl", hash = "sha256:46107f4e0612f9ed9ef747b8a703f436d9be548a49e03b61b2e357e0624da483"},
+    {file = "starlite-1.51.11.tar.gz", hash = "sha256:24ca8e84200c13914724b517a5ce5f52f0ab8ff905720d8f60cabc672402d8a3"},
 ]
 
 [package.dependencies]
