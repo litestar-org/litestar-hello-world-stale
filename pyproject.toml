@@ -1,21 +1,20 @@
 [tool.poetry]
-name = "starlite-hello-world"
+name = "litestar-hello-world"
 version = "0.1.0"
-description = "A minimal template for Starlite based projects"
+description = "A minimal template for Litestar based projects"
 authors = []
 
 [tool.poetry.dependencies]
-python = "^3.10"
-starlite = "*"
-# starlite = { path = "../starlite/", develop = true }
-uvicorn = "*"
+python = ">=3.9,<4.0"
+litestar = { extras = ["standard"], version=" ==2.0.0a7" }
+# litestar = { extras = ["standard"], path = "../litestar/", develop = true }
 
 [tool.poetry.dev-dependencies]
 pre-commit = "*"
 pytest = "*"
 pytest-cov = "*"
-starlite = { version = "*", extras = ["testing"] }
-# starlite = { path  = "../starlite/", develop = true, extras = ["testing"] }
+litestar = { version = "*", extras = ["testing"] }
+# litestar = { extras = ["testing"], path  = "../litestar/", develop = true }
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
@@ -48,7 +47,7 @@ disallow_any_generics = false
 disallow_incomplete_defs = true
 disallow_untyped_decorators = true
 disallow_untyped_defs = true
-ignore_missing_imports = true
+ignore_missing_imports = false
 implicit_reexport = false
 show_error_codes = true
 strict = true
@@ -60,15 +59,3 @@ warn_unused_ignores = true
 
 [tool.pytest.ini_options]
 addopts = "--cov=main -v"
-
-[tool.pylint.MESSAGE_CONTROL]
-disable = [
-    "missing-module-docstring",
-]
-enable = "useless-suppression"
-
-[tool.pylint.BASIC]
-no-docstring-rgx="test.*$"
-
-[tool.pylint.FORMAT]
-max-line-length = "120"

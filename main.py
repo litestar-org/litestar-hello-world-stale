@@ -1,13 +1,21 @@
-"""Minimal Starlite application."""
+"""Minimal Litestar application."""
+from asyncio import sleep
 from typing import Any
 
-from starlite import Starlite, get
+from litestar import Litestar, get
 
 
-@get("/")
-def hello_world() -> dict[str, Any]:
+@get("/async")
+async def async_hello_world() -> dict[str, Any]:
+    """Route Handler that outputs hello world."""
+    await sleep(0.1)
+    return {"hello": "world"}
+
+
+@get("/sync", sync_to_thread=False)
+def sync_hello_world() -> dict[str, Any]:
     """Route Handler that outputs hello world."""
     return {"hello": "world"}
 
 
-app = Starlite(route_handlers=[hello_world])
+app = Litestar(route_handlers=[sync_hello_world, async_hello_world])
