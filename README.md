@@ -23,6 +23,8 @@
 
 Minimum Litestar Implementation.
 
+`$ poetry shell`
+
 `$ poetry install`
 
 `$ litestar run --reload`
