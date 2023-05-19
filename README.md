@@ -23,9 +23,11 @@
 
 Minimum Litestar Implementation.
 
+`$ poetry shell`
+
 `$ poetry install`
 
-`$ poetry run uvicorn main:app --reload`
+`$ litestar run --reload`
 
 `$ curl localhost:8000/ -w "\n"`
 
