@@ -419,13 +419,13 @@ six = ">=1.13.0"
 
 [[package]]
 name = "litestar"
-version = "2.0.0a7"
-description = "Performant, light and flexible ASGI API Framework"
+version = "2.0.0b1"
+description = "Litestar - A production-ready, highly performant, extensible ASGI API Framework"
 optional = false
 python-versions = ">=3.8,<4.0"
 files = [
-    {file = "litestar-2.0.0a7-py3-none-any.whl", hash = "sha256:92de105e2c5f2d89a4ad4d6c181c765b6a08d5be10337b7c94578490b16a7842"},
-    {file = "litestar-2.0.0a7.tar.gz", hash = "sha256:da515a979a23f2fd4a80056d54409006e62b6e7f643bf13b1bb4152bd7e184f1"},
+    {file = "litestar-2.0.0b1-py3-none-any.whl", hash = "sha256:ed90d1935c20b410bd36350b919d84100755b7edae3aa3981b8288f8a07afe9e"},
+    {file = "litestar-2.0.0b1.tar.gz", hash = "sha256:1dde21589e09fbe2d7520faedf4339ef4f40c02b0189172ab196445045a612c9"},
 ]
 
 [package.dependencies]
@@ -443,22 +443,23 @@ polyfactory = ">=2"
 pydantic = "<2"
 pyyaml = "*"
 rich = {version = ">=13.0.0", optional = true, markers = "extra == \"cli\" or extra == \"standard\" or extra == \"full\""}
+rich-click = {version = "*", optional = true, markers = "extra == \"cli\" or extra == \"standard\""}
 typing-extensions = "*"
-uvicorn = {version = ">=0.21.1,<0.22.0", extras = ["standard"], optional = true, markers = "extra == \"cli\" or extra == \"standard\" or extra == \"full\""}
+uvicorn = {version = ">=0.22.0,<0.23.0", extras = ["standard"], optional = true, markers = "extra == \"cli\" or extra == \"standard\" or extra == \"full\""}
 
 [package.extras]
 attrs = ["attrs", "cattrs", "python-dateutil", "pytimeparse"]
 brotli = ["brotli"]
-cli = ["click", "jsbeautifier", "rich (>=13.0.0)", "uvicorn[standard] (>=0.21.1,<0.22.0)"]
+cli = ["click", "jsbeautifier", "rich (>=13.0.0)", "rich-click", "uvicorn[standard] (>=0.22.0,<0.23.0)"]
 cryptography = ["cryptography"]
-full = ["alembic", "attrs", "brotli", "cattrs", "click", "cryptography", "jinja2 (>=3.1.2)", "jsbeautifier", "opentelemetry-instrumentation-asgi", "python-jose", "pytimeparse", "redis[hiredis] (>=4.4.4,!=4.5.0,!=4.5.1,!=4.5.2,!=4.5.3,!=4.5.5)", "rich (>=13.0.0)", "sqlalchemy (>=2.0.12)", "structlog", "uvicorn[standard] (>=0.21.1,<0.22.0)"]
+full = ["alembic", "attrs", "brotli", "cattrs", "click", "cryptography", "jinja2 (>=3.1.2)", "jsbeautifier", "opentelemetry-instrumentation-asgi", "python-jose", "pytimeparse", "redis[hiredis] (>=4.4.4,!=4.5.0,!=4.5.1,!=4.5.2,!=4.5.3,!=4.5.5)", "rich (>=13.0.0)", "sqlalchemy (>=2.0.12)", "structlog", "uvicorn[standard] (>=0.22.0,<0.23.0)"]
 jinja = ["jinja2 (>=3.1.2)"]
 jwt = ["cryptography", "python-jose"]
 opentelemetry = ["opentelemetry-instrumentation-asgi"]
 picologging = ["picologging"]
 redis = ["redis[hiredis] (>=4.4.4,!=4.5.0,!=4.5.1,!=4.5.2,!=4.5.3,!=4.5.5)"]
 sqlalchemy = ["alembic", "sqlalchemy (>=2.0.12)"]
-standard = ["click", "jinja2 (>=3.1.2)", "jsbeautifier", "rich (>=13.0.0)", "uvicorn[standard] (>=0.21.1,<0.22.0)"]
+standard = ["click", "jinja2 (>=3.1.2)", "jsbeautifier", "rich (>=13.0.0)", "rich-click", "uvicorn[standard] (>=0.22.0,<0.23.0)"]
 structlog = ["structlog"]
 
 [[package]]
@@ -997,6 +998,24 @@ pygments = ">=2.13.0,<3.0.0"
 jupyter = ["ipywidgets (>=7.5.1,<9)"]
 
 [[package]]
+name = "rich-click"
+version = "1.6.1"
+description = "Format click help output nicely with rich"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "rich-click-1.6.1.tar.gz", hash = "sha256:f8ff96693ec6e261d1544e9f7d9a5811c5ef5d74c8adb4978430fc0dac16777e"},
+    {file = "rich_click-1.6.1-py3-none-any.whl", hash = "sha256:0fcf4d1a09029d79322dd814ab0b2e66ac183633037561881d45abae8a161d95"},
+]
+
+[package.dependencies]
+click = ">=7"
+rich = ">=10.7.0"
+
+[package.extras]
+dev = ["pre-commit"]
+
+[[package]]
 name = "setuptools"
 version = "67.7.2"
 description = "Easily download, build, install, upgrade, and uninstall Python packages"
@@ -1058,13 +1077,13 @@ files = [
 
 [[package]]
 name = "uvicorn"
-version = "0.21.1"
+version = "0.22.0"
 description = "The lightning-fast ASGI server."
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "uvicorn-0.21.1-py3-none-any.whl", hash = "sha256:e47cac98a6da10cd41e6fd036d472c6f58ede6c5dbee3dbee3ef7a100ed97742"},
-    {file = "uvicorn-0.21.1.tar.gz", hash = "sha256:0fac9cb342ba099e0d582966005f3fdba5b0290579fed4a6266dc702ca7bb032"},
+    {file = "uvicorn-0.22.0-py3-none-any.whl", hash = "sha256:e9434d3bbf05f310e762147f769c9f21235ee118ba2d2bf1155a7196448bd996"},
+    {file = "uvicorn-0.22.0.tar.gz", hash = "sha256:79277ae03db57ce7d9aa0567830bbb51d7a612f54d6e1e3e92da3ef24c2c8ed8"},
 ]
 
 [package.dependencies]
@@ -1276,4 +1295,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<4.0"
-content-hash = "fa71a7b39b2be7b3705af1677ea4ae65a38b4426f4cbdfbcdafa4d6c262e2ba9"
+content-hash = "327a124de737d367a70bb9d03d9257fa3a61bf58195e1408acb58dfb4ac87e87"
