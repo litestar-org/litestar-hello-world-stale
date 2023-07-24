@@ -6,7 +6,7 @@ authors = []
 
 [tool.poetry.dependencies]
 python = ">=3.9,<4.0"
-litestar = { extras = ["standard"], version="==2.0.0b2" }
+litestar = { extras = ["standard"], version="==2.0.0b4" }
 # litestar = { extras = ["standard"], path = "../litestar/", develop = true }
 
 [tool.poetry.dev-dependencies]
