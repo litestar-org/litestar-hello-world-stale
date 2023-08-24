@@ -27,7 +27,7 @@ Minimum Litestar Implementation.
 
 `$ poetry install`
 
-`$ poetry run litestar run -r`
+`$ litestar run --reload`
 
 `$ curl localhost:8000/ -w "\n"`
 
