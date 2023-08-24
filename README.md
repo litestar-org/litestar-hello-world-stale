@@ -23,13 +23,20 @@
 
 Minimum Litestar Implementation.
 
-`$ poetry shell`
+## Install Poetry
 
-`$ poetry install`
+`curl -sSL https://install.python-poetry.org | python3 -`
 
-`$ litestar run --reload`
 
-`$ curl localhost:8000/ -w "\n"`
+## Install litestar
+
+```sh
+
+poetry install
+poetry shell
+litestar run --reload
+curl localhost:8000/ -w "\n"
+```
 
 ## To use for Litestar development
 
